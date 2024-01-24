@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1,2 python pix2pix3d_train.py --gpu_ids='0,1' --center_depth=32 --batch_size=2 --save_path="./experiment_0927_3dconv"
